@@ -3,8 +3,9 @@ require_relative "../lib/song.rb"
 require_relative "../lib/author.rb"
 require_relative "../lib/post.rb"
 
-ninetynine_problems = Song.new("99 Problems", "rap")
-jay_z = Artist.new("Jay-Z")
+ninetynine_problems = Song.new
+jay_z = Artist.new
+jay_z.name = jayz
 
 ninetynine_problems.artist = jay_z
 
