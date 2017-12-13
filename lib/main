@@ -1,8 +1,9 @@
-
+require 'song.rb'
+require 'artist.rb'
 
 ninetynine_problems = Song.new("99 Problems", "rap")
 jay_z = Artist.new("Jay-Z")
- 
+
 ninetynine_problems.artist = jay_z
- 
+
 ninetynine_problems.artist.name
