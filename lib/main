@@ -8,4 +8,4 @@ artist = Artist.new
 artist.name = "Beyonce"
 song.artist = artist
 
-song.artist.name
+puts song.artist.name
